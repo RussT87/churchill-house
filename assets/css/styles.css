@@ -1,0 +1,71 @@
+header {
+    background-color: beige;
+    padding: 40px;
+}
+
+body {
+    background-color: beige;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 20px auto;
+}
+
+#nav1 {
+    display: inline-block
+}
+
+#nav1 ul {
+    opacity: 0.8;
+
+}
+
+#nav1 ul li:hover {
+    background-color: azure;
+}
+
+#nav2 {
+    float: right;
+
+}
+
+
+h1 {
+    color: firebrick;
+}
+
+
+
+#Homepage img {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#Description {
+    background-color: azure;
+    text-align: right;
+}
+
+#Introduction {
+    background-color: antiquewhite;
+    text-align: right;
+
+
+}
+
+#History img {
+    width: 60%
+}
+
+#Robin-Boyd-1919-1971 {
+    background-color: floralwhite;
+    text-align: right;
+}
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+}
