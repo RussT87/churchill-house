@@ -1,47 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway:800,900|Roboto+Condensed:400,700&display=swap');
+
 header {
     background-color: beige;
-    padding: 40px;
+    padding: 10px;
 }
 
 body {
     background-color: beige;
     background-size: cover;
+    font-family: 'Roboto Condensed: 400', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+/*Typography*/
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: firebrick;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: firebrick;
+
 }
 
 .wrapper {
-    width: 980px;
+    width: 1200px;
     margin: 20px auto;
 }
 
+nav {
+    padding: 10px 15px;
+
+
+}
+
+#nav1 ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
 #nav1 {
-    display: inline-block
+    display: inline-block;
+    text-decoration: none;
 }
 
+/*
 #nav1 ul {
-    opacity: 0.8;
+
+    margin: 10px 15px;
+}
+*/
+
+
+#nav1 ul li {
+    display: inline;
 
 }
 
-#nav1 ul li:hover {
+#nav1 ul li ul li {}
+
+#nav1 ul li a:hover {
     background-color: azure;
+    padding: 10px 15px;
+
 }
 
 #nav2 {
     float: right;
+    ;
+}
+
+#nav2 ul li a {
+    text-decoration: none;
 
 }
 
+#nav2 ul li a:hover {
+    background-color: azure;
+    padding: 10px 15px;
 
-h1 {
-    color: firebrick;
 }
-
-
 
 #Homepage img {
-    margin-left: 50px;
-    margin-right: 50px;
-
+    width: 1200px;
+    margin: 0 auto
 }
 
 #Description {
@@ -49,15 +99,13 @@ h1 {
     text-align: right;
 }
 
+#History {}
+
 #Introduction {
     background-color: antiquewhite;
     text-align: right;
 
 
-}
-
-#History img {
-    width: 60%
 }
 
 #Robin-Boyd-1919-1971 {
