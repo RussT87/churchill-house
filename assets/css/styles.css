@@ -3,9 +3,11 @@
 header {
     background-color: beige;
     padding: 10px;
+
 }
 
 body {
+    color: dimgray;
     background-color: beige;
     background-size: cover;
     font-family: 'Roboto Condensed: 400', sans-serif;
@@ -14,6 +16,12 @@ body {
 }
 
 /*Typography*/
+p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
 h1,
 h2 {
     font-family: 'Raleway', sans-serif;
@@ -21,43 +29,33 @@ h2 {
 
 h1 {
     font-size: 40px;
-    color: firebrick;
+    color: darkslategray;
     text-align: center;
     padding-bottom: 10px;
 }
 
 h2 {
-    color: firebrick;
+    color: darkslategray;
 
 }
 
-.wrapper {
+#wrapper {
     width: 1200px;
     margin: 20px auto;
 }
 
-nav {
-    padding: 10px 15px;
-
+#nav1 {
+    display: inline-block;
+    text-decoration: none;
 
 }
 
 #nav1 ul li a {
     padding: 10px 15px;
     text-decoration: none;
+    color: lightslategray;
 }
 
-#nav1 {
-    display: inline-block;
-    text-decoration: none;
-}
-
-/*
-#nav1 ul {
-
-    margin: 10px 15px;
-}
-*/
 
 
 #nav1 ul li {
@@ -68,8 +66,7 @@ nav {
 #nav1 ul li ul li {}
 
 #nav1 ul li a:hover {
-    background-color: azure;
-    padding: 10px 15px;
+    color: darkslategray;
 
 }
 
@@ -80,40 +77,82 @@ nav {
 
 #nav2 ul li a {
     text-decoration: none;
+    color: lightslategray;
 
 }
 
 #nav2 ul li a:hover {
-    background-color: azure;
-    padding: 10px 15px;
+    color: darkslategray;
+
 
 }
 
-#Homepage img {
-    width: 1200px;
-    margin: 0 auto
-}
 
 #Description {
     background-color: azure;
     text-align: right;
+    overflow: auto;
+
 }
 
-#History {}
+#History {
+    overflow: auto;
+    text-align: left;
+}
 
 #Introduction {
     background-color: antiquewhite;
-    text-align: right;
+    text-align: left;
+    overflow: auto;
 
 
+}
+
+#Significance {
+    overflow: auto;
+}
+
+#Significance ul li {
+    list-style: circle;
 }
 
 #Robin-Boyd-1919-1971 {
     background-color: floralwhite;
     text-align: right;
+    overflow: auto;
 }
 
 footer {
     background-color: black;
     color: antiquewhite;
+}
+
+img {
+    border: 5px solid darkslategray;
+}
+
+#homeimg {
+    width: 100%;
+    margin: 20px auto;
+    border: 5px solid darkslategray;
+}
+
+#leftimg {
+    float: left;
+    width: 50%;
+    margin: 20px 10px;
+}
+
+#rightimg {
+    float: right;
+    width: 50%;
+    margin: 20px 10px;
+
+}
+
+#introimg {
+    width: 100%;
+    margin: -4px;
+
+
 }
