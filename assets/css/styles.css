@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Raleway:800,900|Roboto+Condensed:400,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    overflow: hidden;
+    top: 0%;
+    margin: 0.313em;
+    padding-bottom: 6.25em;
+}
+
 header {
     background-color: beige;
     padding: 10px;
@@ -11,13 +22,15 @@ body {
     background-color: beige;
     background-size: cover;
     font-family: 'Roboto Condensed: 400', sans-serif;
-    font-size: 18px;
+    font-size: 1.3em;
     letter-spacing: 0.1em;
+    background-image: url('assets/images/boyd-logo-small.png');
+    background-repeat: no-repeat;
 }
 
 /*Typography*/
 p {
-    font-size: 20px;
+    font-size: 1.2em;
     line-height: 30px;
     margin-bottom: 25px;
 }
@@ -28,10 +41,11 @@ h2 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 4em;
     color: darkslategray;
     text-align: center;
     padding-bottom: 10px;
+    margin: 10px;
 }
 
 h2 {
@@ -128,13 +142,14 @@ footer {
 }
 
 img {
-    border: 5px solid darkslategray;
+    border: 0.313em solid darkslategray;
 }
 
 #homeimg {
     width: 100%;
-    margin: 20px auto;
-    border: 5px solid darkslategray;
+    margin: 1.25em auto;
+    height: 35em;
+
 }
 
 #leftimg {
