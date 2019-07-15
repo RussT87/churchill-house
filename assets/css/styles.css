@@ -2,18 +2,8 @@
 
 html {
     scroll-behavior: smooth;
-}
 
-nav {
-    overflow: hidden;
-    top: 0%;
-    margin: 0.313em;
-    padding-bottom: 6.25em;
-}
-
-header {
-    background-color: beige;
-    padding: 10px;
+    /*    crates  atopmatic smooth scroll to desired page*/
 
 }
 
@@ -22,35 +12,75 @@ body {
     background-color: beige;
     background-size: cover;
     font-family: 'Roboto Condensed: 400', sans-serif;
-    font-size: 1.3em;
+    font-size: 100%;
+    /*    set default text size to 100%, adjust parra and headings using Ems further down*/
     letter-spacing: 0.1em;
-    background-image: url('assets/images/boyd-logo-small.png');
-    background-repeat: no-repeat;
+
 }
+
+nav {
+    margin: 5px;
+
+}
+
+header {
+    font-size: 1.25em;
+    background-color: beige;
+    padding: 10px;
+
+
+
+}
+
+
 
 /*Typography*/
 p {
     font-size: 1.2em;
-    line-height: 30px;
+    line-height: 2;
     margin-bottom: 25px;
+    text-align: justify;
 }
 
 h1,
 h2 {
     font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 h1 {
-    font-size: 4em;
-    color: darkslategray;
-    text-align: center;
-    padding-bottom: 10px;
-    margin: 10px;
+    font-size: 5.5em;
+    padding-top: 4em;
+    /*  I like how "CHURCHILL HOUSE" breaks the image into two  */
 }
 
 h2 {
     color: darkslategray;
+    font-size: 2em;
 
+}
+
+li {
+    line-height: 2;
+}
+
+#leftside,
+#rightside {
+
+    width: 50%;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+
+#rightside {
+    float: right;
+
+}
+
+#leftside {
+    float: left;
 }
 
 #wrapper {
@@ -101,25 +131,37 @@ h2 {
 
 }
 
+#Homepage {
+    background-image: url(../images/churchill-house-homepage.png);
+    /*    set image as background to have website title over the top*/
+    background-size: cover;
+    height: 1000px;
+
+    color: darkslategray;
+    text-align: left;
+}
+
+
 
 #Description {
     background-color: azure;
     text-align: right;
     overflow: auto;
+}
 
+#Description img {
+    margin-top: 250px;
 }
 
 #History {
     overflow: auto;
-    text-align: left;
+
+
 }
 
 #Introduction {
     background-color: antiquewhite;
-    text-align: left;
     overflow: auto;
-
-
 }
 
 #Significance {
@@ -128,7 +170,10 @@ h2 {
 
 #Significance ul li {
     list-style: circle;
+
 }
+
+
 
 #Robin-Boyd-1919-1971 {
     background-color: floralwhite;
@@ -142,28 +187,25 @@ footer {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     border: 0.313em solid darkslategray;
+    margin: 40px;
 }
 
-#homeimg {
-    width: 100%;
-    margin: 1.25em auto;
-    height: 35em;
-
-}
 
 #leftimg {
     float: left;
-    width: 50%;
-    margin: 20px 10px;
+    width: 40%;
+
 }
 
 #rightimg {
     float: right;
-    width: 50%;
-    margin: 20px 10px;
+    width: 40%;
 
 }
+
 
 #introimg {
     width: 100%;
