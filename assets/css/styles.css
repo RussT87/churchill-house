@@ -27,12 +27,7 @@ header {
     font-size: 1.25em;
     background-color: beige;
     padding: 10px;
-
-
-
 }
-
-
 
 /*Typography*/
 p {
@@ -52,7 +47,7 @@ h2 {
 h1 {
     font-size: 5.5em;
     padding-top: 4em;
-    /*  I like how "CHURCHILL HOUSE" breaks the image into two  */
+    /*    I like how "CHURCHILL HOUSE"breaks the image into two*/
 }
 
 h2 {
@@ -155,7 +150,12 @@ li {
 
 #History {
     overflow: auto;
+}
 
+#History ul li {
+    list-style-type: none;
+    color: brown;
+    margin-bottom: 1.25em;
 
 }
 
@@ -164,21 +164,44 @@ li {
     overflow: auto;
 }
 
+/*Introduction page is not split so requires unique text positioning for the content to flow*/
+
+#Introduction h2 {
+    padding-left: 1.8em;
+    padding-top: 1.5em;
+}
+
+#Introduction p {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 #Significance {
     overflow: auto;
 }
 
 #Significance ul li {
-    list-style: circle;
+    list-style-type: none;
+    color: brown;
+    margin-bottom: 1.25em;
 
 }
-
-
 
 #Robin-Boyd-1919-1971 {
     background-color: floralwhite;
     text-align: right;
     overflow: auto;
+}
+
+/*Robin Boyd page is not split so requires unique text positioning for the content to flow*/
+
+#Robin-Boyd-1919-1971 h2 {
+    padding-right: 1.8em;
+}
+
+#Robin-Boyd-1919-1971 p {
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 footer {
@@ -190,7 +213,7 @@ img {
     max-width: 100%;
     height: auto;
     border: 0.313em solid darkslategray;
-    margin: 40px;
+    margin: 2.5em;
 }
 
 
