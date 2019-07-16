@@ -85,6 +85,7 @@ li {
 
 #nav1 {
     display: inline-block;
+    /*    Makes my Robin Boyd link line up with the links on the left*/
     text-decoration: none;
 
 }
@@ -139,7 +140,7 @@ li {
 
 
 #Description {
-    background-color: azure;
+    background-color: beige;
     text-align: right;
     overflow: auto;
 }
@@ -150,6 +151,7 @@ li {
 
 #History {
     overflow: auto;
+    background-color: bisque;
 }
 
 #History ul li {
@@ -188,7 +190,7 @@ li {
 }
 
 #Robin-Boyd-1919-1971 {
-    background-color: floralwhite;
+    background-color: peachpuff;
     text-align: right;
     overflow: auto;
 }
@@ -204,16 +206,47 @@ li {
     padding-right: 3em;
 }
 
+#Robin-Boyd-1919-1971 figcaption {
+    text-align: center;
+    color: aqua;
+
+}
+
 footer {
     background-color: black;
     color: antiquewhite;
+    height: 35em;
+
+    overflow-y: hidden;
+
 }
+
+footer a {
+    color: antiquewhite;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+footer a:hover {
+    color: brown;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: left;
+    padding-top: 9em;
+}
+
 
 img {
     max-width: 100%;
     height: auto;
     border: 0.313em solid darkslategray;
     margin: 2.5em;
+
 }
 
 
@@ -233,6 +266,20 @@ img {
 #introimg {
     width: 100%;
     margin: -4px;
+    /*do not want any gaps in between these images*/
 
+}
 
+footer img {
+    border: none;
+    width: 2em;
+    height: auto;
+    float: right;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+}
+
+footer img:hover {
+    transform: scale(1.25);
+    /*     125% zoom when hovering over link*/
 }
