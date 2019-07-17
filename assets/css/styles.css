@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Raleway:800,900|Roboto+Condensed:400,700&display=swap');
 
-@media screen and (max-width:1200px);
 
 html {
     scroll-behavior: smooth;
     /* crates atopmatic smooth scroll to desired page*/
 }
 
-#container {
-    width: 1200px;
-
-}
 
 body {
-    /*    width: 1200px;*/
+
     color: dimgray;
     background-color: beige;
     background-size: cover;
@@ -68,10 +63,7 @@ li {
 
 #leftside,
 #rightside {
-
     width: 40%;
-
-
 }
 
 
@@ -173,8 +165,6 @@ li {
 
 
 }
-
-
 
 #Description img {
     margin-top: 250px;
@@ -308,13 +298,22 @@ img {
 }
 
 
-#introimg {
+#introimg1,
+#introimg2 {
     width: 1190px;
+    height: 665px;
     /*    adjusting for the 5px border*/
-    margin: -4px;
-    /*do not want any gaps in between these images*/
-
 }
+
+#introimg1 {
+    margin-bottom: -4px;
+}
+
+#introimg2 {
+    margin-top: -4px;
+}
+
+/*both images in Introduction now join*/
 
 #History img {
     height: 270px;
@@ -356,3 +355,10 @@ h3 {
 }
 
 /*this is the solution I came up with getting the photo credits underneath the photo */
+
+
+@media screen and (max-width:1199px) {
+    #container {
+        width: 100%
+    }
+}
