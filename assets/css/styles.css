@@ -127,6 +127,17 @@ li {
 
 }
 
+
+
+
+
+/*         CONTENT          */
+
+
+
+
+
+
 #Homepage {
     background-image: url(../images/churchill-house-homepage.png);
     /*    set image as background to have website title over the top*/
@@ -190,7 +201,7 @@ li {
 }
 
 #Robin-Boyd-1919-1971 {
-    background-color: peachpuff;
+    background-color: antiquewhite;
     text-align: right;
     overflow: auto;
 }
@@ -206,17 +217,12 @@ li {
     padding-right: 3em;
 }
 
-#Robin-Boyd-1919-1971 figcaption {
-    text-align: center;
-    color: aqua;
 
-}
 
 footer {
     background-color: black;
     color: antiquewhite;
     height: 35em;
-
     overflow-y: hidden;
 
 }
@@ -237,8 +243,19 @@ footer a:hover {
 
 footer p {
     text-align: left;
-    padding-top: 9em;
+    padding-top: 8em;
 }
+
+
+
+
+
+
+/*         IMAGES          */
+
+
+
+
 
 
 img {
@@ -270,6 +287,12 @@ img {
 
 }
 
+#History img {
+    height: 210px;
+    width: auto;
+
+}
+
 footer img {
     border: none;
     width: 2em;
@@ -277,9 +300,28 @@ footer img {
     float: right;
     margin-right: 0.5em;
     margin-top: 0.5em;
+
 }
 
 footer img:hover {
     transform: scale(1.25);
     /*     125% zoom when hovering over link*/
 }
+
+
+#caption {
+    position: relative;
+    width: 100%;
+}
+
+h3 {
+    position: absolute;
+    top: 420px;
+    width: 100%;
+    text-align: left;
+    padding-left: 310px;
+    font-family: 'Raleway', sans-serif;
+    color: darkslategray;
+}
+
+/*this is the solution I came up with getting the photo credits underneath the photo */
