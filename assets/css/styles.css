@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Raleway:800,900|Roboto+Condensed:400,700&display=swap');
 
+@media screen and (max-width:1200px);
+
 html {
     scroll-behavior: smooth;
+    /* crates atopmatic smooth scroll to desired page*/
+}
 
-    /*    crates  atopmatic smooth scroll to desired page*/
+#container {
+    width: 1200px;
 
 }
 
 body {
+    /*    width: 1200px;*/
     color: dimgray;
     background-color: beige;
     background-size: cover;
@@ -15,7 +21,6 @@ body {
     font-size: 100%;
     /*    set default text size to 100%, adjust parra and headings using Ems further down*/
     letter-spacing: 0.1em;
-
 }
 
 nav {
@@ -35,12 +40,12 @@ p {
     line-height: 2;
     margin-bottom: 25px;
     text-align: justify;
+
 }
 
 h1,
 h2 {
     font-family: 'Raleway', sans-serif;
-    padding-top: 1em;
     padding-bottom: 1em;
 }
 
@@ -51,6 +56,7 @@ h1 {
 }
 
 h2 {
+    padding-top: 1em;
     color: darkslategray;
     font-size: 2em;
 
@@ -63,19 +69,23 @@ li {
 #leftside,
 #rightside {
 
-    width: 50%;
-    padding-left: 4em;
-    padding-right: 4em;
+    width: 40%;
+
+
 }
 
 
 #rightside {
     float: right;
+    display: inline-block;
+    padding-right: 4em;
 
 }
 
 #leftside {
     float: left;
+    display: inline-block;
+    padding-left: 4em;
 }
 
 #wrapper {
@@ -112,7 +122,7 @@ li {
 
 #nav2 {
     float: right;
-    ;
+    padding-right: 20px;
 }
 
 #nav2 ul li a {
@@ -154,7 +164,17 @@ li {
     background-color: beige;
     text-align: right;
     overflow: auto;
+
 }
+
+#Description p {
+    float: right;
+    width: 500px;
+
+
+}
+
+
 
 #Description img {
     margin-top: 250px;
@@ -169,7 +189,6 @@ li {
     list-style-type: none;
     color: brown;
     margin-bottom: 1.25em;
-
 }
 
 #Introduction {
@@ -204,7 +223,9 @@ li {
     background-color: antiquewhite;
     text-align: right;
     overflow: auto;
+    overflow-x: hidden;
 }
+
 
 /*Robin Boyd page is not split so requires unique text positioning for the content to flow*/
 
@@ -212,9 +233,11 @@ li {
     padding-right: 1.8em;
 }
 
+
 #Robin-Boyd-1919-1971 p {
     padding-left: 3em;
     padding-right: 3em;
+
 }
 
 
@@ -259,21 +282,26 @@ footer p {
 
 
 img {
-    max-width: 100%;
     height: auto;
-    border: 0.313em solid darkslategray;
-    margin: 2.5em;
+    border: 5px solid darkslategray;
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+    max-width: 1200px;
+
 
 }
 
 
 #leftimg {
+    margin-left: 2.5em;
     float: left;
     width: 40%;
+
 
 }
 
 #rightimg {
+    margin-right: 2.5em;
     float: right;
     width: 40%;
 
@@ -281,17 +309,20 @@ img {
 
 
 #introimg {
-    width: 100%;
+    width: 1190px;
+    /*    adjusting for the 5px border*/
     margin: -4px;
     /*do not want any gaps in between these images*/
 
 }
 
 #History img {
-    height: 210px;
-    width: auto;
+    height: 270px;
+    width: 550px;
 
 }
+
+#Robin-Boyd-1919-1971 img {}
 
 footer img {
     border: none;
