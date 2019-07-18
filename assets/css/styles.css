@@ -7,6 +7,7 @@ html {
 }
 
 
+
 body {
 
     color: dimgray;
@@ -24,9 +25,9 @@ nav {
 }
 
 header {
-    font-size: 1.25em;
+    font-size: 1.3em;
     background-color: beige;
-    padding: 10px;
+    padding: 10px 40px 10px 10px;
 }
 
 /*Typography*/
@@ -61,26 +62,26 @@ li {
     line-height: 2;
 }
 
-#leftside,
-#rightside {
+.leftside,
+.rightside {
     width: 40%;
 }
 
 
-#rightside {
+.rightside {
     float: right;
     display: inline-block;
     padding-right: 4em;
 
 }
 
-#leftside {
+.leftside {
     float: left;
     display: inline-block;
     padding-left: 4em;
 }
 
-#wrapper {
+.wrapper {
     width: 1200px;
     margin: 20px auto;
 }
@@ -282,7 +283,7 @@ img {
 }
 
 
-#leftimg {
+.leftimg {
     margin-left: 2.5em;
     float: left;
     width: 40%;
@@ -290,7 +291,7 @@ img {
 
 }
 
-#rightimg {
+.rightimg {
     margin-right: 2.5em;
     float: right;
     width: 40%;
@@ -321,7 +322,6 @@ img {
 
 }
 
-#Robin-Boyd-1919-1971 img {}
 
 footer img {
     border: none;
@@ -356,9 +356,25 @@ h3 {
 
 /*this is the solution I came up with getting the photo credits underneath the photo */
 
-
-@media screen and (max-width:1199px) {
-    #container {
-        width: 100%
+/*phones*/
+@media screen and (max-device-width: 425px) {
+    .wrapper {
+        width: 100%;
     }
-}
+
+    header ul {
+        columns: 2;
+    }
+
+
+
+
+
+    /*Tablets*/
+
+    @media screen and (min-device-width: 425px) and (max-device-width: 768px) {
+        .wrapper {
+            width: 100%;
+        }
+
+    }
