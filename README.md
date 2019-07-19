@@ -42,9 +42,9 @@ mmtuts - This is a YouTube channel which I found very useful. The videos cover a
  
 # Comparison
 
-<link href="assets/pdf/wireframe.pdf">
 
-(assets/pdf/wireframe.pdf)
+
+(../assets/pdf/wireframe)
 
 
 The final appearance of the site has changed a little from my wireframe. The images in the content pages ended up being a lot smaller, leaving more empty space on the page. The header bar was also taken away as I wanted each page to be as simple as possible. The footer I decided to change as well after seeing this site: https://flos.com/. I really liked that the footer took up almost the whole screen. It’s not something you expect and gives a dramatic finish to the site. I also took away the Robin Boyd logo, as it was not appropriate to have the logo as such a dominant part of the site that’s primary function is to promote Churchill House. 
