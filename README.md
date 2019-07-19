@@ -1,6 +1,6 @@
 # churchill-house
 
-#Reflection
+# Reflection
 
 This reflection aims to provide an insight into the process I took in designing the Churchill House website. It will be broken into three sections; research and design, learning the skills, and developing the site.
 
@@ -10,9 +10,9 @@ I found learning the skills required to build a site using HTML and CSS enjoyabl
 
 When developing the site, it became clear that conducting research and creating an inspiration board was extremely useful. I eventually narrowed down my desired look to be based on three sites. I always had these siting in my tabs and constantly referred to them during development. Unfortunately, I only came across the ‘column method’ late in the development stage but feel like this would have helped me, as I wanted to create two columns for the majority of the site. If I was to go back and redesign the site, I would implement this technique. That would also have made the task of converting my site to responsive slightly easier. The converting to responsive I initially found very confusing. I understood the reason behind it but putting it into practice was another story. I had not considered responsive functions at any stage of the process, from research to learning the skills and developing the site. Once again if I was to have my time again this would be a consideration from the start.
 
-#Annotated List
+# Annotated List
 
-##Website I gained the most inspiration from:
+## Website I gained the most inspiration from:
 
 (https://kubrick.life/)
 
@@ -34,15 +34,15 @@ w3schools – This site has a great library of examples for both HTML and CSS. T
 
 (https://stackoverflow.com/)
 
-Stack Overflow – Here people post issues they are having with trying to achieve certain design styles on their website. Several people often reply with solutions. Reading through the solutions was a good way to increase my knowledge and realise the full potential of HTML and CSS. Though I was very mindful of not picking up bad habits from these boards. I found there are usually several ways to make your design work but not all of them are helpful in the long run.
+__Stack Overflow__ Here people post issues they are having with trying to achieve certain design styles on their website. Several people often reply with solutions. Reading through the solutions was a good way to increase my knowledge and realise the full potential of HTML and CSS. Though I was very mindful of not picking up bad habits from these boards. I found there are usually several ways to make your design work but not all of them are helpful in the long run.
 
 (https://www.youtube.com/channel/UCzyuZJ8zZ-Lhfnz41DG5qLw)
 
-mmtuts – This is a YouTube channel which I found very useful. The videos cover a range of topics regarding web development and are usually quite easy to follow. 
+mmtuts - This is a YouTube channel which I found very useful. The videos cover a range of topics regarding web development and are usually quite easy to follow. 
  
-#Comparison
+# Comparison
 
 (../assets/pdf/wireframe.pdf)
-../assets/pdf/wireframe.pdf
+
 
 The final appearance of the site has changed a little from my wireframe. The images in the content pages ended up being a lot smaller, leaving more empty space on the page. The header bar was also taken away as I wanted each page to be as simple as possible. The footer I decided to change as well after seeing this site: https://flos.com/. I really liked that the footer took up almost the whole screen. It’s not something you expect and gives a dramatic finish to the site. I also took away the Robin Boyd logo, as it was not appropriate to have the logo as such a dominant part of the site that’s primary function is to promote Churchill House. 
