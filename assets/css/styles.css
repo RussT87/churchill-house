@@ -106,8 +106,6 @@ li {
 
 }
 
-#nav1 ul li ul li {}
-
 #nav1 ul li a:hover {
     color: darkslategray;
 
@@ -127,9 +125,7 @@ li {
 #nav2 ul li a:hover {
     color: darkslategray;
 
-
 }
-
 
 
 
@@ -151,8 +147,6 @@ li {
     text-align: left;
 }
 
-
-
 #Description {
     background-color: beige;
     text-align: right;
@@ -163,8 +157,6 @@ li {
 #Description p {
     float: right;
     width: 500px;
-
-
 }
 
 #Description img {
@@ -217,7 +209,6 @@ li {
 
 }
 
-
 /*Robin Boyd page is not split so requires unique text positioning for the content to flow*/
 
 #Robin-Boyd-1919-1971 h2 {
@@ -230,8 +221,6 @@ li {
     padding-right: 3em;
 
 }
-
-
 
 footer {
     background-color: black;
@@ -279,16 +268,12 @@ img {
     margin-top: 2.5em;
     max-width: 1200px;
 
-
 }
-
 
 .leftimg {
     margin-left: 2.5em;
     float: left;
     width: 40%;
-
-
 }
 
 .rightimg {
@@ -335,7 +320,7 @@ footer img {
 
 footer img:hover {
     transform: scale(1.25);
-    /*     125% zoom when hovering over link*/
+    /*     125% zoom when hovering over image/link */
 }
 
 
@@ -358,6 +343,8 @@ h3 {
 
 /*this is the solution I came up with getting the photo credits underneath the photo */
 
+
+
 /* RESPONSIVE COMPONENT*/
 
 
@@ -369,11 +356,11 @@ h3 {
         width: 100%;
         height: auto;
         margin: 0;
-        /*        got rid of the margins on the top and bottom of the pages. flows alot better on smaller screen*/
+        /* got rid of the margins on the top and bottom of the pages. flows alot better on smaller screen*/
     }
 
 
-    /*    Heading font sizes   */
+    /*    Heading fonts   */
 
 
     h1 {
@@ -467,14 +454,15 @@ h3 {
 
 }
 
-/*    Tablets   img {} */
+/*    Tablets    */
+
+
 @media screen and (max-device-width: 768px) and (min-device-width: 425px) {
     .wrapper {
         width: 100%;
         height: auto;
         margin: 0;
     }
-
 
     /*Heading font sizes*/
 
@@ -490,10 +478,11 @@ h3 {
 
     h3 {
         margin: 0 0 0 40px;
+        /* Allign the cpation */
         top: 0;
     }
 
-    /* Allign the cpation */
+
 
     /*    Pages   */
 
@@ -534,7 +523,7 @@ h3 {
 
     #History img {
         width: 99%;
-        /*        99% to allow for border*/
+        /* 99% to allow for border*/
         height: auto;
         margin: 0;
     }
