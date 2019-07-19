@@ -36,7 +36,7 @@ w3schools – This site has a great library of examples for both HTML and CSS. T
 
 Stack Overflow – Here people post issues they are having with trying to achieve certain design styles on their website. Several people often reply with solutions. Reading through the solutions was a good way to increase my knowledge and realise the full potential of HTML and CSS. Though I was very mindful of not picking up bad habits from these boards. I found there are usually several ways to make your design work but not all of them are helpful in the long run.
 
-https://www.youtube.com/channel/UCzyuZJ8zZ-Lhfnz41DG5qLw
+(https://www.youtube.com/channel/UCzyuZJ8zZ-Lhfnz41DG5qLw)
 
 mmtuts – This is a YouTube channel which I found very useful. The videos cover a range of topics regarding web development and are usually quite easy to follow. 
  
