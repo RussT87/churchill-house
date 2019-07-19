@@ -42,7 +42,7 @@ mmtuts - This is a YouTube channel which I found very useful. The videos cover a
  
 # Comparison
 
-<link href="assets/pdf/wireframe.pdf" rel="wireframe">
+<link href="assets/pdf/wireframe.pdf">
 
 (assets/pdf/wireframe.pdf)
 
