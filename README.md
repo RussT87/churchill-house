@@ -12,25 +12,25 @@ When developing the site, it became clear that conducting research and creating 
 
 # Annotated List
 
-## Website I gained the most inspiration from:
+## Websites I gained the most inspiration from:
 
 (https://kubrick.life/)
 
-Kurbrik Life – This website made me want to design a one-page website. I liked the large fonts used and basic colours. A full page with white or black and large red writing on it sounds boring but this website is certainly not boring.
+__Kurbrik Life__ This website made me want to design a one-page website. I liked the large fonts used and basic colours. A full page with white or black and large red writing on it sounds boring but this website is certainly not boring.
 
 (http://pastamansi.com/)
 
-Pasta Masi – I liked the two distinct columns used in this website and did my best to recreate that as a defining characteristic.
+__Pasta Masi__ I liked the two distinct columns used in this website and did my best to recreate that as a defining characteristic.
 
 (https://under.no/)
 
-Under Restaurant – The simple colours of this website grabbed me. Combined with the photos it sets a distinct mood. The photos used complement the design style of the site which I also tried to recreate. For this reason I tried to use the drawings and photos with well defined lines that worked with the simple styling of the sites design.
+__Under Restaurant__ The simple colours of this website grabbed me. Combined with the photos it sets a distinct mood. The photos used complement the design style of the site which I also tried to recreate. For this reason I tried to use the drawings and photos with well defined lines that worked with the simple styling of the sites design.
 
-##Websites I used for information:
+## Websites I used for information:
 
 (https://www.w3schools.com/)
 
-w3schools – This site has a great library of examples for both HTML and CSS. The great part about the site is you can read the code but there is also a button you can click on which shows the code being put into practice. 
+__w3schools__ This site has a great library of examples for both HTML and CSS. The great part about the site is you can read the code but there is also a button you can click on which shows the code being put into practice. 
 
 (https://stackoverflow.com/)
 
@@ -42,7 +42,9 @@ mmtuts - This is a YouTube channel which I found very useful. The videos cover a
  
 # Comparison
 
-(../assets/pdf/wireframe.pdf)
+<link href="assets/pdf/wireframe.pdf" rel="wireframe">
+
+(assets/pdf/wireframe.pdf)
 
 
 The final appearance of the site has changed a little from my wireframe. The images in the content pages ended up being a lot smaller, leaving more empty space on the page. The header bar was also taken away as I wanted each page to be as simple as possible. The footer I decided to change as well after seeing this site: https://flos.com/. I really liked that the footer took up almost the whole screen. It’s not something you expect and gives a dramatic finish to the site. I also took away the Robin Boyd logo, as it was not appropriate to have the logo as such a dominant part of the site that’s primary function is to promote Churchill House. 
