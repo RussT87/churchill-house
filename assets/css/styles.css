@@ -353,7 +353,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     color: darkslategray;
     width: 890px;
-    /*    width = 1200-310(margin-left)*/
+
 }
 
 /*this is the solution I came up with getting the photo credits underneath the photo */
@@ -372,19 +372,135 @@ h3 {
         /*        got rid of the margins on the top and bottom of the pages. flows alot better on smaller screen*/
     }
 
+
+    /*    Heading font sizes   */
+
+
     h1 {
         font-size: 4.5em;
         padding-left: 20px;
     }
 
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        margin: 0 0 0 40px;
+        top: 0;
+    }
+
+
+    /*    Pages   */
 
 
     #Description {
         text-align: center;
     }
 
-    #Description h2 {
+
+
+    #Description img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border: none;
+        /* looks better without border*/
+    }
+
+    #Description .rightside {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    #Description p {
+        width: 90%;
+        margin-right: 5%;
+        font-size: 19.2px;
+    }
+
+    #History h2 {
+        padding-top: 80px
+    }
+
+    #History img {
+        width: 99%;
+        /*        99% to allow for border*/
+        height: auto;
+        margin: 0;
+    }
+
+    #History .rightside {
+        padding-top: 60px;
+    }
+
+    #Introduction {
+        text-align: center;
+    }
+
+    #Introduction h2 {
+
+        padding: 50px 0 50px 0;
+    }
+
+    #Introduction img {
+        width: 99%;
+        /*        99% to allow for border*/
+        height: auto;
+        margin-top: 0;
+
+    }
+
+    footer p {
+        padding-top: 100px;
+    }
+
+    footer a {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    footer img {
+        margin: 30px 30px 80px 0;
+    }
+
+}
+
+/*    Tablets   img {} */
+@media screen and (max-device-width: 768px) and (min-device-width: 425px) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+
+    /*Heading font sizes*/
+
+
+    h1 {
+        font-size: 4.5em;
+        padding-left: 20px;
+    }
+
+    h2 {
         font-size: 50px;
+    }
+
+    h3 {
+        margin: 0 0 0 40px;
+        top: 0;
+    }
+
+    /* Allign the cpation */
+
+    /*    Pages   */
+
+
+
+    #Description {
+        text-align: center;
     }
 
     #Description img {
@@ -399,6 +515,10 @@ h3 {
         width: 100%;
         height: auto;
         padding: 0;
+    }
+
+    #Description h2 {
+        font-size: 50px;
     }
 
     #Description p {
@@ -428,7 +548,6 @@ h3 {
     }
 
     #Introduction h2 {
-        font-size: 50px;
         padding: 50px 0 50px 0;
     }
 
@@ -440,16 +559,20 @@ h3 {
 
     }
 
-    #Robin-Boyd-1919-1971 img {}
-}
-
-/*    Tablets   img {} */
-@media screen and (max-device-width: 768px) and (min-device-width: 425px) {
-    .wrapper {
-        width: 100%;
-        height: auto;
-        margin: 0;
+    #Robin-Boyd-1919-1971 img {
+        margin-bottom: 0;
     }
 
+    footer p {
+        padding-top: 100px;
+    }
 
+    footer a {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    footer img {
+        margin: 30px 30px 80px 0;
+    }
 }
