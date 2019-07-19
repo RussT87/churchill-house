@@ -12,7 +12,7 @@ When developing the site, it became clear that conducting research and creating 
 
 # Annotated List
 
-## Websites I gained the most inspiration from:
+### Websites I gained the most inspiration from:
 
 (https://kubrick.life/)
 
@@ -26,7 +26,7 @@ __Pasta Masi__ I liked the two distinct columns used in this website and did my 
 
 __Under Restaurant__ The simple colours of this website grabbed me. Combined with the photos it sets a distinct mood. The photos used complement the design style of the site which I also tried to recreate. For this reason I tried to use the drawings and photos with well defined lines that worked with the simple styling of the sites design.
 
-## Websites I used for information:
+### Websites I used for information:
 
 (https://www.w3schools.com/)
 
@@ -42,7 +42,7 @@ mmtuts - This is a YouTube channel which I found very useful. The videos cover a
  
 # Comparison
 
-### Ben I've tried to link my wireframe below but I could not work out how. The Wireframe I am refering to in this comparison is in the assets/pdf folder.
+__Ben I've tried to link my wireframe below but I could not work out how. The Wireframe I am refering to in this comparison is in the assets/pdf folder.__
 
 [a link] (..assets/pdf/wireframe.pdf)
 
